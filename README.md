@@ -11,14 +11,14 @@ Structures are given below:
 AIFFEL_quest_cr  
 ├── MainQuest  
 │   ├── Quest01  
-│   │   ├── .ipynb  
-│   │   └── README.md  
+│   │    ├── .ipynb  
+│   │    └── README.md  
 .	.  
 .	.  
 .	.  
 │   └── Quest05  
-│       ├── .ipynb  
-│       └── README.md  
+│        ├── .ipynb  
+│        └── README.md  
 .  
 .  
 .  
@@ -30,18 +30,18 @@ AIFFEL_quest_cr
 .   . 
 .	.  
 |	└── Ex07  
-|	    ├── .ipynb  
-|       └── README.md  
+|	     ├── .ipynb  
+|        └── README.md  
 .  
 .  
 .  
 └── GoingDeeper  
     ├── GD01  
-    .   ├── .ipynb  
-    .   └── README.md  
+    .    ├── .ipynb  
+    .    └── README.md  
     .  
     .  
  	.  
  	└── GD09  
- 	    ├── .ipynb  
-        └── README.md  
+ 	     ├── .ipynb  
+         └── README.md  
