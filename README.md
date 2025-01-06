@@ -8,6 +8,7 @@
 
 Structures are given below:
 
+```bash
 AIFFEL_quest_cr  
 ├── MainQuest  
 │    ├── Quest01  
@@ -41,7 +42,7 @@ AIFFEL_quest_cr
     .    └── README.md  
     .  
     .  
-    .  
- 	└── GD09  
-        ├── .ipynb  
+    .
+    └── GD09  
+        ├── .ipynb
         └── README.md  
