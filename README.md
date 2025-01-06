@@ -1,4 +1,4 @@
-# AIFFEL_quest_r
+# AIFFEL_quest_rs
 
 ## This is a repository for quests of aiffel rs.
 
