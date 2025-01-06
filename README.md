@@ -10,27 +10,27 @@ Structures are given below:
 
 AIFFEL_quest_cr  
 ├── MainQuest  
-│   ├── Quest01  
-│   │    ├── .ipynb  
-│   │    └── README.md  
-.	.  
-.	.  
-.	.  
-│   └── Quest05  
+│    ├── Quest01  
+│    │    ├── .ipynb  
+│    │    └── README.md  
+.        .  
+.        .  
+.        .  
+│    └── Quest05  
 │        ├── .ipynb  
 │        └── README.md  
 .  
 .  
 .  
 └── Exploration  
-|   ├── Ex01  
-|   .    ├── .ipynb  
-|   .    └── README.md  
-.   .  
-.   . 
-.	.  
-|	└── Ex07  
-|	     ├── .ipynb  
+|    ├── Ex01  
+|    .    ├── .ipynb  
+|    .    └── README.md  
+.    .  
+.    . 
+.    .  
+|    └── Ex07  
+|        ├── .ipynb  
 |        └── README.md  
 .  
 .  
