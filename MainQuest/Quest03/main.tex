@@ -179,7 +179,7 @@ DyT & 64.64 & 74.47 & 8.03 \\
 \end{center}
 
 \subsection{Results}
-We evaluated the performance and efficiency of LayerNorm and Dynamic Tanh (DyT) within our Transformer model on a randomly selected subset (n=100) of the training data. The DyT model achieved a comparable average BLEU score to the LayerNorm model, indicating successful replacement. However, DyT exhibited a significant advantage in terms of efficiency, demonstrating a 15\% faster execution time and a greater number of iterations per second. The similar learning curves observed in Figure \ref{fig:loss_dynamics} further support the capability of DyT as a practical replacement. These findings suggest that DyT offers a computationally more efficient approach for Korean chatbot development using Transformers, without compromising performance.
+We evaluated the performance and efficiency of LayerNorm and Dynamic Tanh (DyT) within our Transformer model on a randomly selected subset (n=100) of the training data. The DyT model achieved a comparable average BLEU score to the LayerNorm model, indicating successful replacement. However, DyT exhibited a significant advantage in terms of efficiency, demonstrating a 15\% faster execution time and a greater number of iterations per second. The similar learning dynamics observed in Figure \ref{fig:loss_dynamics} further support the capability of DyT as a practical replacement. These findings suggest that DyT offers a computationally more efficient approach for Korean chatbot development using Transformers, without compromising performance.
 
 \section{Why is it More Efficient?}
 
@@ -190,7 +190,7 @@ The experimental results demonstrate a remarkable observation: the DyT-based mod
     \item The tanh function, a widely used activation function, has highly optimized implementations in deep learning frameworks. These optimizations can also contribute to faster operation for DyT.
 \end{itemize}
 
-\section{Chapter 6: Conclusion}
+\section{Conclusion}
 
 This study explored replacing LayerNorm with DynamicTanh (DyT) in a Transformer-based Korean chatbot. Experiments on a Korean question-answer dataset showed DyT achieved comparable BLEU scores to LayerNorm, validating its performance-preserving capability. DyT reduced training and evaluation time by approximately 15\%, indicating improved efficiency. These results suggest that DyT is a promising alternative to improve the efficiency of Transformer-based Korean chatbots without harming performance. Future research could explore the DyT performance across diverse Korean NLP tasks and larger datasets, and analyze its impact in various Transformer architectures. In conclusion, DyT shows significant potential as an efficient substitute for LayerNorm in Transformer-based Korean chatbot models.
 
