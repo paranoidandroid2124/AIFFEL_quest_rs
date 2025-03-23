@@ -165,7 +165,7 @@ The performance of the models was evaluated using the BLEU (Bilingual Evaluation
 
 \begin{center}
 \begin{table}
-\caption{Comparison of average BLEU scores, execution times, and iterations per second for LayerNorm-based and DyT-based models.}
+\caption{Comparison of average BLEU scores, execution times, and iterations per second for LayerNorm-based and DyT-based models. One can observe that the DyT model exceeds the time efficiency of the LayerNorm model.}
 \label{tab:experimental_results}
 \begin{tabular}{lccc}
 \toprule
@@ -179,7 +179,7 @@ DyT & 64.64 & 74.47 & 8.03 \\
 \end{center}
 
 \subsection{Results}
-We evaluated the performance and efficiency of LayerNorm and Dynamic Tanh (DyT) within our Transformer model on a randomly selected subset (n=100) of the training data. The DyT model achieved a comparable average BLEU score to the LayerNorm model, indicating successful replacement. However, DyT exhibited a significant advantage in terms of efficiency, demonstrating a 15\% faster execution time and a greater number of iterations per second. The similar learning dynamics observed in Figure \ref{fig:loss_dynamics} further support the capability of DyT as a practical replacement. These findings suggest that DyT offers a computationally more efficient approach for Korean chatbot development using Transformers, without compromising performance.
+We evaluated the performance and efficiency of LayerNorm and Dynamic Tanh (DyT) within our Transformer model on a randomly selected subset (n=100) of the training data. The DyT model achieved a comparable average BLEU score to the LayerNorm model, indicating successful replacement. However, DyT exhibited a significant advantage in terms of efficiency, demonstrating a 15\% faster execution time and a greater number of minibatch iterations per second. The similar learning dynamics observed in Figure \ref{fig:loss_dynamics} further support the capability of DyT as a practical replacement. These findings suggest that DyT offers a computationally more efficient approach for Korean chatbot development using Transformers, without compromising performance.
 
 \section{Why is it More Efficient?}
 
